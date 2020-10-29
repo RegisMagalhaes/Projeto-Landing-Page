@@ -224,3 +224,59 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 1199px){
+    .sobre{
+        height: auto;
+        padding-bottom: 4em;
+    
+        }
+    .sobre .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .artigo-sobre{
+        justify-content: center;
+    }
+    .artigo-sobre img{
+        width: 100%;
+        max-width: 850px;
+        margin-bottom: 2em;
+
+    }
+    .artigo-text-sobre{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .artigo-sobre img{
+        max-width: 700px;
+    }
+    .artigo-text-sobre{
+        width: 90%;
+    }
+    .info-card{
+        text-align: center;
+
+    }
+    .info p{
+        width: 220px;
+    }
+    .end-text{
+        width: 700px;
+        flex-direction: column;
+        height: auto;
+        padding: 2em 0;
+    }
+    .endereco{
+        height: auto;
+        padding-bottom: 2em;
+    }
+    .end-text img{
+        position: unset;
+        margin-top: 2em;
+    }
+}
+    
