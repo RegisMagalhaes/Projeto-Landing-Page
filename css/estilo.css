@@ -62,8 +62,7 @@
     height: 100%;
     /*background-color: rgba(255, 255, 255, 0.5);*/
     margin:auto;
-    display: flex;
-    align-items: flex-end;
+   
 }
 
 .alinhando-abaixo{
@@ -111,6 +110,8 @@
     font-size: 64px;
     padding-top: 30px;
     padding-bottom: 60px;
+    display: flex;
+    align-items: center;    
 }
 
 .artigo-sobre{
